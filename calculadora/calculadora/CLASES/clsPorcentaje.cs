@@ -11,7 +11,7 @@ namespace calculadora.CLASES
         public double Porcentaje(double N1, double N2)
         {
             double p;
-           p = N1 % N2;
+           p = (N1/100) * N2;
             return p;
         }
     }
